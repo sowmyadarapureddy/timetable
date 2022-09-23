@@ -1,0 +1,70 @@
+h2{
+    color:navy;
+}
+.location::before{
+    content:'📍';
+}
+.calendar::before{
+    content:'📅';
+}
+.web::after{
+    content:'🌐';
+}
+.link::before{
+    content:'💎';
+}
+.pro{
+    color:blue;
+}
+.pro::before{
+    color: black ;
+    content:'->:'
+}
+.grey{
+    color: gray;
+}
+.u{
+    color: orange;
+    width: 200px;
+}
+.str{
+    background-color: white;
+    border-radius: 7px 7px 7px 7px;
+    height:30px;
+}
+.ski{
+    background-color: white;
+    border-radius: 8px 8px 8px 8px;
+    height: 30px;
+    width: 60px;
+    
+}
+.int::before{
+    font:bold;
+    content:'->:'
+}
+.lan::before{
+    content:'->:'
+}
+.ski1{
+    background-color: white;
+    border-radius: 7px 7px 7px 7px;
+    height: 30px;
+    width:150px;
+}
+.ski2{
+    background-color: white;
+    border-radius: 7px 7px 7px 7px;
+    height: 30px;
+    width:100px;
+}
+.ski3{
+    background-color: white;
+    border-radius: 7px 7px 7px 7px;
+    height: 30px;
+    width:90px;
+}
+.bor{
+    
+    border-bottom:4px solid orange;
+}
